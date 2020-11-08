@@ -1,6 +1,4 @@
 buildscript {
-//    ext.kotlin_version = '1.3.20'
-
     dependencies {
         classpath "gradle.plugin.org.jetbrains.intellij.plugins:gradle-intellij-plugin:0.4.7"
     }
@@ -12,20 +10,6 @@ plugins {
 
 String pluginDisplayName = "Pine Theme"
 String releaseVersion = "1.0.0"
-
-String getBuildPluginOutputPath() {
-    String path = "${project.buildDir.absolutePath}/distributions/Pine Theme-${project.version}.zip"
-    return path
-}
-
-String getOutputJarPath() {
-    String path = "${project.buildDir.absolutePath}/distributions/Pine Theme/lib/pine-${project.version}.jar"
-    File myFile = new File(path)
-    if (!myFile.exists()) {
-        throw new GradleException("File at path ${path} does not exist")
-    }
-    return path
-}
 
 group "info.hargrave"
 version releaseVersion
