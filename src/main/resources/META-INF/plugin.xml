@@ -1,0 +1,24 @@
+<idea-plugin>
+  <id>info.hargrave.intellij.pine-theme</id>
+  <name>Pine Theme</name>
+  <version>1.0.0</version>
+  <depends>com.intellij.modules.platform</depends>
+  <vendor email="contact@hargrave.info" url="https://gitlab.com/RomanHargrave/intellij-pine-theme">Roman Hargrave</vendor>
+
+  <description><![CDATA[
+      Dark-green theme intended to match a custom emacs theme of the same name.<br />
+    ]]></description>
+
+  <change-notes>
+  </change-notes>
+
+  <idea-version since-build="191.0"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="info.hargrave.intellij.pine-theme" path="/pine.theme.json" />
+    <bundledColorScheme id="Pine" path="/pine" />
+  </extensions>
+
+  <actions>
+  </actions>
+</idea-plugin>

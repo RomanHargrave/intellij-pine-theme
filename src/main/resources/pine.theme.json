@@ -1,0 +1,235 @@
+{
+  "name": "Pine",
+  "dark": true,
+  "author": "Roman Hargrave",
+  "editorScheme": "/pine.xml",
+  "ui": {
+    "*": {
+      "background": "#0c1400",
+      "foreground": "#d5c9b0",
+
+      "selectionBackground": "#222b14",
+      "selectionForeground": "#d5c9b0",
+      "selectionInactiveBackground": "#121e00",
+      "selectionBackgroundInactive": "#121e00",
+      "selectionInactiveForeground": "#d5c4a1",
+
+
+      "lightSelectionBackground": "#49503d",
+      "lightSelectionForeground": "#d5c9b0",
+      "lightSelectionInactiveBackground": "#353e29",
+      "lightSelectionInactiveForeground": "#d5c4a1",
+
+      "borderColor": "#353e29",
+      "separatorColor": "#353e29",
+      "lineSeparatorColor": "#353e29",
+
+      "focusColor": "#121e00",
+      "focusedBorderColor": "#121e00",
+
+      "errorForeground": "#ffb0b3",
+      "errorBackground": "#532e2e",
+
+      "underlineColor": "#5f875f"
+    },
+
+    "window": "#0c1400",
+    "windowText": "#d5c9b0",
+
+    "ActionButton": {
+      "hoverBackground": "#4e6a61",
+      "hoverBorderColor": "#5f8578",
+      "pressedBackground": "#405c53",
+      "pressedBorderColor": "#537669"
+    },
+
+    "Button": {
+      "startBackground": "#222b14",
+      "endBackground": "#222b14",
+      "startBorderColor": "#222b14",
+      "endBorderColor": "#222b14",
+      "focusedBorderColor": "#7a311e",
+      "shadowColor": "#1e2612",
+
+      "default": {
+        "foreground": "#d5c9b0",
+        "startBackground": "#5f875f",
+        "endBackground": "#5f875f",
+        "startBorderColor": "#5f875f",
+        "endBorderColor": "#5f875f",
+        "focusedBorderColor": "#7a311e",
+        "shadowColor": "#3d563d"
+      }
+    },
+
+    "ComboBox": {
+      "nonEditableBackground": "#222b14",
+      "background": "#121e00",
+      "ArrowButton": {
+        "background": "#222b14",
+        "nonEditableBackground": "#49503d",
+        "iconColor": "#5f875f"
+      }
+    },
+
+    "DefaultTabs": {
+      "borderColor": "#222b14",
+      "underlinedTabBackground": "#222b14",
+      "underlinedTabForeground": "#d5c9b0",
+      "underlineColor": "#5f875f",
+      "inactiveUnderlineColor": "#6b876b"
+    },
+
+    "EditorTabs": {
+      "borderColor": "#222b14",
+      "underlinedTabBackground": "#222b14",
+      "underlinedTabForeground": "#d5c9b0",
+      "underlineColor": "#5f875f",
+      "inactiveUnderlineColor": "#6b876b"
+    },
+
+    "FileColor": {
+      "Yellow": "#683419"
+    },
+
+    "Link": {
+      "activeForeground": "#458588",
+      "hoverForeground": "#458588",
+      "visitedForeground": "#83a598",
+      "pressedForeground": "#458588"
+    },
+
+    "Label": {
+      "foreground": "#d5c9b0",
+      "infoForeground": "#d5c9b0",
+      "errorForeground": "#d5c9b0"
+    },
+
+    "Notification": {
+
+    },
+
+    "Plugins": {
+      "lightSelectionBackground": "#2c3f36",
+      "Tab": {
+        "hoverBackground": "#268155",
+        "selectedForeground": "#e0fff7",
+        "selectedBackground": "#006b4d"
+      },
+      "Button.updateBackground": "#4e6a61",
+      "Button.updateBorderColor": "#5f8578",
+      "Button.updateForeground": "#D8F6EE"
+    },
+
+    "Popup": {
+      "paintBorder": true,
+      "borderColor": "#222b14",
+      "inactiveBorderColor": "#272b20",
+      "Toolbar": {
+        "borderColor": "#222b14"
+      },
+      "Header": {
+        "activeBackground": "#222b14",
+        "inactiveBackground": "#272b20"
+      }
+    },
+
+    "PopupMenu": {
+      "borderWidth": "1",
+      "borderInsets": "6,2,6,2"
+    },
+
+    "ProgressBar": {
+      "trackColor": "#223528",
+      "progressColor": "#268d50",
+      "indeterminateStartColor": "#428d68",
+      "indeterminateEndColor": "#479c72",
+      "failedColor": "#dc6142",
+      "failedEndColor": "#ae5435",
+      "passedColor": "#48cd5c",
+      "passedEndColor": "#349043"
+    },
+
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "#2c6545",
+        "selectedForeground": "#e5f6f3"
+      },
+      "Advertiser": {
+        "background": "#313e3a",
+        "borderInsets": "18,18,18,0"
+      }
+    },
+
+    "SpeedSearch": {
+      "errorForeground": "#dc6142"
+    },
+
+    "TabbedPane": {
+      "underlineColor": "#5f875f",
+      "background": "#0c1400",
+      "contentAreaColor": "#121e00"
+    },
+
+    "Table": {
+      "gridColor": "#121e00"
+    },
+
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#121e00",
+        "background": "#222b14"
+      },
+      "HeaderTab": {
+        "underlinedTabBackground": "#222b14",
+        "underlineColor": "#5f875f",
+        "inactiveUnderlineColor": "#6b876b",
+        "selectedInactiveBackground": "#121e00"
+      },
+      "Button": {
+        "hoverBackground": "#222b14",
+        "selectedBackground": "#222b14"
+      }
+    },
+
+    "Tree": {
+      "hash": "#121e00"
+    },
+
+    "Panel.background": "#0c1400"
+  },
+  "icons": {
+    "ColorPalette": {
+      "_Comment": "Changes the color of the action icons such as Git",
+      "Actions.Green": "#beffb7",
+      "Actions.Blue": "#87ffeb",
+      "Objects.Blue": "#87ffeb",
+
+      "_Greyscale_Comment": "If everything were to change to grey, its entertaining at least but impractical",
+      "__Actions.Grey": "#808883",
+      "__Actions.Red": "#808883",
+      "__Actions.Yellow": "#808883",
+      "__Actions.Green": "#808883",
+      "__Actions.Blue": "#808883",
+      "__Actions.GreyInline.Dark": "#e5ffedec",
+
+      "__Objects.Grey": "#808883",
+      "__Objects.RedStatus": "#808883",
+      "__Objects.Red": "#808883",
+      "__Objects.Pink": "#808883",
+      "__Objects.Yellow": "#808883",
+      "__Objects.Green": "#808883",
+      "__Objects.Blue": "#808883",
+      "__Objects.Purple": "#808883",
+      "__Objects.BlackText": "#808883",
+      "__Objects.YellowDark": "#808883",
+      "__Objects.GreenAndroid": "#808883",
+
+
+
+
+      "__Comment": "Changes the color of objects such as the Kotlin file icon",
+      "_Objects.Blue": "#FF0000"
+    }
+  }
+}
