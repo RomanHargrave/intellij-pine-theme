@@ -89,7 +89,7 @@
     },
 
     "FileColor": {
-      "Yellow": "#683419"
+      "Yellow": "#1e2200"
     },
 
     "Link": {
@@ -201,35 +201,9 @@
   "icons": {
     "ColorPalette": {
       "_Comment": "Changes the color of the action icons such as Git",
-      "Actions.Green": "#beffb7",
-      "Actions.Blue": "#87ffeb",
-      "Objects.Blue": "#87ffeb",
-
-      "_Greyscale_Comment": "If everything were to change to grey, its entertaining at least but impractical",
-      "__Actions.Grey": "#808883",
-      "__Actions.Red": "#808883",
-      "__Actions.Yellow": "#808883",
-      "__Actions.Green": "#808883",
-      "__Actions.Blue": "#808883",
-      "__Actions.GreyInline.Dark": "#e5ffedec",
-
-      "__Objects.Grey": "#808883",
-      "__Objects.RedStatus": "#808883",
-      "__Objects.Red": "#808883",
-      "__Objects.Pink": "#808883",
-      "__Objects.Yellow": "#808883",
-      "__Objects.Green": "#808883",
-      "__Objects.Blue": "#808883",
-      "__Objects.Purple": "#808883",
-      "__Objects.BlackText": "#808883",
-      "__Objects.YellowDark": "#808883",
-      "__Objects.GreenAndroid": "#808883",
-
-
-
-
-      "__Comment": "Changes the color of objects such as the Kotlin file icon",
-      "_Objects.Blue": "#FF0000"
+      "Actions.Green": "#5f875f",
+      "Actions.Blue": "#458588",
+      "Objects.Blue": "#458588"
     }
   }
 }
