@@ -88,6 +88,10 @@
       "inactiveUnderlineColor": "#6b876b"
     },
 
+    "EditorPane": {
+      "caretForeground": "#d5c9b0"
+    },
+
     "FileColor": {
       "Yellow": "#1e2200"
     },
