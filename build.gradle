@@ -9,7 +9,7 @@ plugins {
 }
 
 String pluginDisplayName = "Pine Theme"
-String releaseVersion = "1.0.0"
+String releaseVersion = "1.0.1"
 
 group "info.hargrave"
 version releaseVersion
