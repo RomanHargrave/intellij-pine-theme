@@ -1,15 +1,11 @@
 <scheme name="Pine" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2020-11-08T17:45:48</property>
+    <property name="created">2020-11-08T19:37:09</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2020.2.3.0.0</property>
-    <property name="modified">2020-11-08T17:46:05</property>
+    <property name="modified">2020-11-08T19:37:14</property>
     <property name="originalScheme">pine wk</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="13" />
-  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="b2b2b2" />
     <option name="ANNOTATIONS_COLOR" value="b2b2b2" />
@@ -3696,4 +3692,8 @@
       </value>
     </option>
   </attributes>
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
 </scheme>
